@@ -1,0 +1,2 @@
+# WaterWizeAI
+Final project - WaterWizeAI
