@@ -54,6 +54,15 @@ function NavigationBar() {
             </NavLink>
 
             <NavLink
+            to="/TasksList"
+            className={({ isActive }) =>
+              isActive ? classes.active : classes.inactive
+            }
+          >
+            <li>ניהול משימות</li>
+          </NavLink>
+
+            <NavLink
               to="/Forum"
               className={({ isActive }) =>
                 isActive ? classes.active : classes.inactive
